@@ -13,6 +13,7 @@ public class Bill
     // TODO: Add Comments, Categories, Installments
     public int Id { get; set; }
     
+    [Display(Name = "Bill")]
     public required string Name { get; set; }
     
     [Display(Name = "Total Due")]
